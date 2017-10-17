@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.a2dam.hgi.MainActivity1">
+
+    <EditText
+        android:id="@+id/et_nom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <RadioButton
+        android:id="@+id/Mascle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="?attr/isLightTheme"
+        android:text="Mascle"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="133dp" />
+
+    <RadioButton
+        android:id="@+id/Femella"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Femella"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="185dp" />
+
+    <Button
+        android:id="@+id/botoInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="291dp" />
+
+</LinearLayout>
